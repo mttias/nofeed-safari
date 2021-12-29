@@ -1,0 +1,61 @@
+/*FACEBOOK*/
+#pagelet_bookmark_nav, /* Left column: Bookmarks */
+div[id*="ticker"], /* Right column / Chat sidebar: news ticker */
+div[id*="pagelet_trending_tags_and_topics"], /* Right column: Trending tags and topics */
+div[id="stories_pagelet_rhc"], /* Right column: Stories */
+div[id="pagelet_ego_pane"] /* Right column: Ads */
+{
+  display: none !important;
+}
+
+/* News feed - Needs visibility:hidden to prevent endless refreshing */
+div[id*="topnews"] { 
+	visibility: hidden !important;
+}
+
+/* For Facebook 2020 redesign */
+div[data-pagelet="Stories"], /* Stories list */
+div[data-pagelet="VideoChatHomeUnit"], /* Rooms/video chat list */
+span#ssrb_feed_start+div[role="feed"], /* News feed */
+div[data-pagelet="RightRail"] > div:first-child > div:first-child /* Right rail's first section, which is an ad */
+{
+  display: none !important;
+}
+
+/*YOUTUBE*/
+.videowall-endscreen,
+.watch-sidebar,
+.feed-item-container,
+ytd-browse {
+  visibility: hidden;
+}
+
+/*#related {
+  visibility: hidden;
+  height: 0px;
+}*/
+
+/*HACKER NEWS*/
+/*hide score*/
+tr > .subtext .score {
+    display: none !important;
+  visibility: hidden !important;
+}
+
+/*hide all subtext*/
+tr > .subtext {
+    display: none !important;
+  visibility: hidden !important;
+}
+
+/*hide rank*/
+.athing .title .rank {
+      display: none !important;
+  visibility: hidden !important;
+}
+
+/*REDDIT*/
+._1VP69d9lk-Wk9zokOaylL {
+        display: none !important;
+  visibility: hidden !important;
+}

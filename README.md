@@ -1,5 +1,5 @@
 # nofeed-safari
-Hides feeds such from Safari on MacOS, so you can focus on what matters.
+Hides feeds from Safari on MacOS, so you can focus on what matters.
 
 Hides the feed from Youtube, Linkedin, Facebook, and Reddit. It also hides upvotes & comments from hacker news.
 
